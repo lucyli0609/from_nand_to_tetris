@@ -58,9 +58,8 @@ CHIP ALU {
 
     //zr and ng
     Or16Way(in=tempOUT,out=tempZR);
-    //or use two Or8Way and use OR function to connect them
     Not(in=tempZR,out=zr);
-    Or16(a[0..15]=false,b=tempOUT,out[15]=ng,out[0..14]=drop);//the same as "And true"
+    Or16(a[0..15]=false,b=tempOUT,out[15]=ng,out[0..14]=drop);
 
     //final output
     And16(a=tempOUT,b[0..15]=true,out=out);
