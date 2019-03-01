@@ -1,1 +1,1 @@
-The goal of chapter one is to lear about how to specify gates and chips using a Hardware Description Language (HDL), and how to simulate the behavior of the resulting chip specifications using a hardware simulator. 
+The goal of chapter one is to learn about how to specify gates and chips using a Hardware Description Language (HDL), and how to simulate the behavior of the resulting chip specifications using a hardware simulator. 
